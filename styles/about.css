@@ -74,11 +74,6 @@ h2 {
   height: 405px;
   padding-left: 10%;
 }
-.letters {
-  position: absolute;
-  top: 65px;
-  right: 2em;
-}
 .inf {
   position: relative;
   background-color: #fff;
@@ -150,8 +145,6 @@ h2 {
   height: 491px;
 }
 .idea h2 {
-  display: flex;
-  justify-content: flex-end;
   color: #000;
   font-size: 30px;
   justify-content: flex-end;
@@ -273,6 +266,17 @@ footer {
   .about-pr h3 {
     padding-bottom: 44px;
   }
+  .idea p {
+    width: 404px;
+    padding-bottom: 40px;
+    font-size: 20px;
+  }
+  .idea h3 {
+    padding-bottom: 34px;
+  }
+  .line {
+    width: 16vw;
+  }
   .forgot {
     height: 918px;
   }
@@ -359,16 +363,36 @@ footer {
 .picture {
   margin-right: 10%;
 }
-  .main {
-    height: 627px;
-  }
+.main {
+  height: 627px;
+}
+.letters2 {
+  position: absolute;
+  top: 334px;
+  left: 38%;
+  width: 10vw;
+  z-index: 2;
+}
+.letters {
+  width: 30vw;
+  position: absolute;
+  top: 95px;
+  right: 8em;
+  z-index: 2;
+}
+.letters3 {
+  width: 36vw;
+  left: 17px;
+  position: absolute;
+  top: 392px;
+}
 .inf {
   background-color: #fff;
-    width: 56vw;
-    height: 237px;
-    position: absolute;
-    top: 390px;
-    right: 0px;
+  width: 56vw;
+  height: 237px;
+  position: absolute;
+  top: 390px;
+  right: 0px;
   }
   .inf p {
     padding-top: 9px;
@@ -383,30 +407,91 @@ footer {
     font-size: 25px;
   }
   .about-pr p {
-      width: 414px;
-      font-size: 20px;
+    width: 530px;
+    font-size: 20px;
+  }
+  .author p {
+    width: 428px;
+  }
+  .picture img {
+    width: 34vw;
+    margin-top: 30px;
+  }
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .tiger {
+    height: 56vw;
+    width: 40vw;
+    margin-top: 16px;
+  }
+  h2 {
+    left: -1%;
+    font-size: 50px;
+    padding-bottom: 43px;
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+    padding-left: 0.02em;
+    margin-left: 3%;
+  }
+  h2:before {
+    content: '';
+    position: absolute;
+    height: 26px;
+    background: #FDE40E;
+    /* top: 50%; */
+  }
+  h2:before{
+    z-index: -1;
+    right: -1.1rem;
+    /* left: 0.1rem; */
+    top: 28px;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    width: 100%;
   }
   h3 {
-    font-size: 25px;
+    font-size: 30px;
+  }
+  .about-pr {
+    padding-top: 190px;
+  }
+  .left-eye {
+    position: relative;
+    top: -216px;
+    left: -210px;
+    width: 20vw;
+  }
+  .right-eye {
+    position: absolute;
+    top: 852px;
+    left: 830px;
+    width: 18vw;
   }
   p {
     font-size: 20px;
   }
   .card {
+    padding-top: 14%;
     height: 648px;
   }
   .card p {
-    width: 450px;
+    font-size: 24px;
+    font-weight: 500;
+    width: 547px;
   }
   .forgot {
     height: 809px;
   }
   .last-section {
-    height: 862PX;
+    height: 636px;
     position: relative;
   }
   .last-section p {
-    width: 400px;
+    width: 610px;
+    font-size: 24px
   }
   .more {
     font-size: 18px;
@@ -418,14 +503,31 @@ footer {
     top: 5px;
   }
   .idea {
-    padding-top: 78px;
-    height: 731px;
+    justify-content: space-between;
+    padding-top: 225px;
+    height: 780px;
+    display: flex;
+    flex-direction: row-reverse;
   }
   .idea p {
-    width: 404px;
+    width: 569px;
+  }
+  .idea img {
+    width: 17vw;
   }
   .idea h2 {
     font-size: 45px;
+  }
+  .author {
+    padding-top: 116px;
+  }
+  .author h2 {
+    font-size: 45px;
+  }
+  .lunks {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
   }
   .line {
     width: 15vw;
@@ -437,17 +539,17 @@ footer {
     display: unset;
   }
   .duck-large {
-    width: 30vw;
     position: absolute;
     left: 0;
-    top: 480px;
+    top: 316px;
     width: 24vw;
   }
   .dog-large {
     display: unset;
     position: absolute;
-    width: 51vw;
+    width: 38vw;
     right: 0;
-    top: 527px;
+    top: 395px;
   }
+
 }
